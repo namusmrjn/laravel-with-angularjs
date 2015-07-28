@@ -1,0 +1,8 @@
+h1 Home
+p {{vm.hello}}
+.quote(ng-repeat="quote in vm.quotes")
+  h3 {{quote.quote}}
+    span  &mdash; {{quote.author}}
+  img(src="{{quote.image}}")
+  hr
+button(ng-click='vm.new()') go to new

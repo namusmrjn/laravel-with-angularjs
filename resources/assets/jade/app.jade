@@ -1,0 +1,25 @@
+doctype html
+html(ng-app='oneline' lang='en')
+  head
+    title Oneline - random quote for your inspiration
+
+    meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge,chrome=1')
+    meta(name='viewport' content='width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0')
+    meta(name='description' content='Light-weight quote share and discovery.')
+    meta(name='apple-mobile-web-app-capable' content='yes')
+    meta(name='mobile-web-app-capable' content='yes')
+
+    script(src='/bower_components/filesize/lib/filesize.min.js')
+    script(src='/bower_components/jquery/dist/jquery.min.js')
+    script(src='/bower_components/swiper/dist/js/swiper.jquery.min.js')
+    script(src='/bower_components/angular/angular.min.js')
+    script(src='/bower_components/angular-route/angular-route.js')
+    script(src='/bower_components/angular-resource/angular-resource.js')
+    script(src='/bower_components/ng-file-upload/ng-file-upload-all.min.js')
+    script(src='/bower_components/cloudinary_js/js/jquery.cloudinary.js')
+    script(src='/bower_components/ng-file-upload/ng-file-upload.min.js')
+    script(src='/js/app.js')
+
+    base(href='/')
+  body(ng-view)

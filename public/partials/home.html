@@ -1,0 +1,8 @@
+
+<h1>Home</h1>
+<p>{{vm.hello}}</p>
+<div ng-repeat="quote in vm.quotes" class="quote">
+  <h3>{{quote.quote}}<span> &mdash; {{quote.author}}</span></h3><img src="{{quote.image}}"/>
+  <hr/>
+</div>
+<button ng-click="vm.new()">go to new</button>

@@ -24,3 +24,10 @@ Route::resource(
 Route::get('/', function() {
     return view('index');
 });
+
+Route::get(
+    '/app/{param1?}/{param2?}/{param3?}',
+    function() {
+        return view('app');
+    }
+);
